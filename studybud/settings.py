@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@72y2ks@k@zw#@80k24v5h7--62jsxru880!n#5b*%sa%fk%m#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -138,3 +138,4 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+ALLOWED_HOSTS = ['studybud-customuser.onrender.com']
