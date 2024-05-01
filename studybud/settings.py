@@ -144,3 +144,5 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ['https://studybud-customuser.onrender.com', 'studybud-customuser.onrender.com']
+
+SECURE_SSL_REDIRECT = True
